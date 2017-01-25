@@ -11,8 +11,3 @@ innihald = input("Hvað viltu að skráin inniheldur? ")
 for i in range(0,3):
     y.write(innihald+"\n")
 y.close()
-y=open(texti,"r")
-if y.mode == "r":
-    stuff = y.read()
-    print(stuff)
-y.close()
